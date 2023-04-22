@@ -6,20 +6,27 @@ This application was developed and tested with the following dependencies:
 
 <b> Python 3.6+ <b/>
 <b> PyQt5 </b>
-# To install the required packages, you can use the following command:
+* To install the required packages, you can use the following command:
 
 ```
 pip install pyqt5
 ```
-# To run the application, simply run the text_editor.py file.
+* To run the application, simply run the text_editor.py file.
 ```
-python text_editor.py
+python editor.py
 ```
+# Features
 Once the application starts, you can perform the following operations:
-
-Create a new file: Click on "New" from the File menu or press Ctrl+N.
-Open an existing file: Click on "Open" from the File menu or press Ctrl+O.
-Save the current file: Click on "Save" from the File menu or press Ctrl+S.
-Save the current file with a new name:Click on "Save As" from the File menu or press Ctrl+Shift+S.
-Cut, Copy, and Paste: Select the text you want to manipulate and either right-click and select the desired action, or use the corresponding keyboard shortcuts (Ctrl+X, Ctrl+C, or Ctrl+V).
-About: Click on "About" from the Help menu to see information about the application.
+<table border="1">
+<tbody>
+<tr><td>Action</td><td> Menu/Shortcut</td></tr>
+<tr><td>Create a new file</td><td> File > New or Ctrl+N</td></tr>
+<tr><td>Open an existing file</td><td> File > Open or Ctrl+O</td></tr>
+<tr><td>Save the current file</td><td> File > Save or Ctrl+S</td></tr>
+<tr><td>Save the current file with a new name</td><td> File > Save As or Ctrl+Shift+S</td></tr>
+<tr><td>Cut selected text</td><td> Select text > Ctrl+X</td></tr>
+<tr><td>Copy selected text</td><td> Select text > Ctrl+C</td></tr>
+<tr><td>Paste copied/cut text</td><td> Place cursor > Ctrl+V</td></tr>
+<tr><td>About information for the application </td><td> Help > About</td></tr>
+</tbody>
+</table>
