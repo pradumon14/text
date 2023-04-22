@@ -13,7 +13,7 @@ pip install pyqt5
 ```
 * To run the application, simply run the text_editor.py file.
 ```
-python editor.py
+python Editor.py
 ```
 # Features
 Once the application starts, you can perform the following operations:
